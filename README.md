@@ -16,11 +16,13 @@ go build
 
 download the qrcode decode component from `http://sourceforge.jp/projects/qrcode/files/`, and then unzip it.
 
-suppose you unzip location is 
+suppose your unzip location is 
 
 `/home/damonchen/qrcode`
 
-so the bin path is `/home/damonchen/qrcode/bin`
+so the bin path is `/home/damonchen/qrcode/bin` .
+
+run the command below
 
 ```bash
 
@@ -42,4 +44,5 @@ curl -F "uploadFile=@test-image.png" http://localhost:8090/
 ```
 
 to decode your qrcode image through net. 
+
 
